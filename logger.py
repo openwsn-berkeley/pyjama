@@ -23,7 +23,7 @@ class Logger(object):
         self.lock                 = threading.RLock()
         self.logfile              = first_logfile
         self.snapshot_interval    = snapshot_interval
-        self.loggin               = True
+        self.logging               = True
         # initialize JsonManager
         self.jsonManager          = JsonManager.JsonManager(
              autoaddmgr           = False,
